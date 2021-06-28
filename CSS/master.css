@@ -482,6 +482,7 @@ header nav ul li a {
   
 }
 .video video {
+  width:100%;
   max-width: 100%;
 }
 .video::before {
