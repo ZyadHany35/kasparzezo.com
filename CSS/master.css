@@ -521,7 +521,7 @@ header nav ul li a {
   text-transform: uppercase;
   cursor: pointer;
 }
-@media (max-width:300px) {
+@media (max-width:500px) {
   .video .text {
     max-height: 80%;
     font-size: 10px;
