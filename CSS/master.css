@@ -89,6 +89,31 @@ ul {
   line-height: 2;
   color: #777;
 }
+
+/* Arrow */
+.arrow a {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: var(--main-color);
+  padding: 6px;
+  text-decoration: none;
+  color: white;
+  z-index: 10;
+  
+ }
+.arrow a::before {
+   content: "";
+   width: 0;
+   height: 0;
+   border: 8px solid ;
+   border-color: transparent transparent white;
+   position: relative;
+   top: -14px;
+   left: 0px;
+ }
+/* End Arrow */
+
 /* End Components  */
 
 /* header */
